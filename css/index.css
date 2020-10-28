@@ -1,0 +1,606 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    font-family: 'Dosis', sans-serif;
+}
+
+/* button:hover{
+    background-color: orangered ;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+    font-weight: bold;
+} */
+header{
+    background-color: #223047;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.firstHead{
+    width: 100%;
+    float: left;
+    
+}
+.logo{
+    width: 20%;
+    float: left;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+.menu{
+    width: 25%;
+    float: left;
+}
+.menu nav ul li{
+    float: left;
+    list-style-type: none;
+    padding: 35px 25px 35px 0px ;
+}
+.menu nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu nav ul li a i{
+    font-size: 12px;
+    color: #b3b3b3;
+}
+.menu nav ul li a:hover{
+    background-color: orangered;
+    color: white;
+    transition: 0.5s;
+    font-family: 'Dosis', sans-serif;
+    padding: 5px 5px;
+}
+.btn{
+    width: 20%;
+    float: left;
+}
+.btn button{
+    background-color: #00fff0;
+    margin: 25px 0px 0px 50px;
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 12px;
+    border-style: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: orangered ;
+    color: white;
+    outline: none;
+    transform: 0.5s;
+    font-family: 'Dosis', sans-serif;
+
+}
+.nav{
+    width: 20%;
+    float: left;
+    color: white;
+    margin-top: 32px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+.secondHead{
+    width: 100%;
+    float: left;
+}
+.leftSide{
+    width: 50%;
+    float: left;
+}
+.leftSide h2{
+   color: white;
+   font-size: 40px;
+   font-weight: lighter;
+   padding-top: 140px;
+}
+.leftSide p{
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+    padding-top: 60px;
+}
+.leftSideBtnOne:hover{
+    background-color: orangered ;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.leftSideBtnOne{
+    background-color: #00fff0;
+    margin: 70px 20px 80px 0px;
+    padding: 16px 30px;
+    font-size: 15px;
+    border-radius: 12px;
+    border-style: none;
+    cursor: pointer;
+}
+.leftSideBtnTwo:hover{
+    background-color: orangered ;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.leftSideBtnTwo{
+    background-color: #223047;
+    color: white;
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.rightSide{
+    width: 50%;
+    float: left;
+}
+.rightSide img{
+   margin-bottom: -80px;
+   padding-top: 80px;
+   margin-left: 170px;
+}
+
+.serviceTitle{
+    width: 100%;
+    float: left;
+    margin-top: 150px;
+    text-align: center;
+}
+.hrLine{
+    width: 10%;
+    float: left;
+    margin: 35px 0px 35px 500px ;
+    border-bottom: 3px solid #00FFF1 ;
+}
+.serviceTypes{
+    width: 100%;
+    float: left;
+    margin: 30px 0px 30px 40px;
+}
+.serviceTypes button{
+    width: 20%;
+    float: left;
+    border-style: none;
+    outline: none;
+    margin-right: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px -6px black;
+}
+
+.serviceTypes h3{
+    font-size: 18px;
+    padding: 15px 0px;
+}
+.serviceTypes p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.companyInfoLeftSide{
+    width: 50%;
+    float: left;
+    background-color: #323A4D;
+    margin-top: 50px;
+    height: 400px;
+}
+.companyInforightSide{
+    width: 50%;
+    float: left;
+    background-color: #F5F6FA;
+    margin-top: 50px;
+    height: 400px;
+}
+.companyInforightSide h3{
+    font-size: 30px;
+    padding: 85px 0px 55px 95px;
+    text-align: justify;
+}
+.companyInforightSide p{
+    padding: 0px 95px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+.presentationOneLeft{
+    width: 50%;
+    float: left;
+    margin-top: 70px;
+}
+.presentationOneLeft h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 230px;
+    padding-bottom: 45px;
+    
+}
+.presentationOneRight{
+    width: 50%;
+   float: left;
+   margin-top: 70px;
+}
+.presentationOneRight p{
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+.presentationBtnOne:hover{
+    background-color: orangered ;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.presentationBtnOne{
+    background-color: #00fff0;
+    margin: 60px 00px 80px 250px;
+    padding: 16px 30px;
+    font-size: 15px;
+    border-radius: 12px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.advertising{
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+.advertisingLeft{
+    width: 50%;
+    float: left;
+}
+
+.advertisingRight{
+    width: 50%;
+    float: left;
+    
+}
+.advertisingRight button{
+    display: block;
+    text-align: left;
+    outline: none;
+    border-style: none;
+    width: 380px;
+    margin: 15px 0px 00px 25px;
+    background-color: white;
+    box-shadow: 0px 0px 10px -6px black;
+    padding-bottom: 15px;
+    
+}
+.advertisingRight button img {
+    padding-top: 10px;
+    padding-left: 10px;
+   
+}
+.advertisingRight button h4 {
+   font-size: 18px;
+   padding-left: 75px;
+   font-weight: 300;
+}
+.advertisingRight button p{
+    line-height: 25px;
+    padding-left: 45px;
+    padding-top: 15px;
+}
+
+.needToKnow{
+    width: 100%;
+    float: left;
+    background-color: #F5F6FA; 
+    padding-bottom: 30px;
+}
+.needToKnowAbout{
+    width: 100%;
+    float: left;
+    
+}
+.needToKnowAboutLeft{
+    width: 50%;
+    float: left; 
+}
+.needToKnowAboutLeft h4{
+   padding-top: 100px;
+   padding-bottom: 25px;
+   margin-left: 250px;
+   font-weight: lighter;
+   font-size: 25px;
+}
+.needToKnowAboutLeft b i{
+    background-color: #00FFF1;
+}
+.needToKnowAboutLeft b{
+    margin-left: 370px;
+    line-height: 35px;
+    font-weight: lighter;
+    font-size: 18px;
+    
+}
+.needToKnowAboutLeft p{
+    font-weight: lighter;
+    line-height: 25px;
+    font-size: 14px;
+    padding-top: 25px;
+    margin-right: 55px;
+  
+}
+.needToKnowAboutRight{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    
+    
+}
+
+.vdoSection{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+}
+.video{
+    width: 100%;
+    float: left;
+}
+.videoMain {
+    padding-top: 150px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: white;
+}
+.videoMain h3{
+   padding-top: 25px;
+   font-size: 30px;
+}
+.videoMain p{
+    padding-top: 25px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.videoDownload{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 25px;
+    
+}
+.videoDownload div h4{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+.btnDnld:hover{
+    background-color: orangered ;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.btnDnld{
+    background-color: #00fff0;
+    margin: 30px 0px 40px 0px;
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 12px;
+    border-style: none;
+    cursor: pointer;
+}
+.explainVdo{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 35px;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+.appDetails{
+    width: 100%;
+    float: left;
+    background-color: #F5F6FA;
+}
+.appAvailability{
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.appPic{
+    width: 50%;
+    float: left;
+}
+.availableStore{
+    width: 50%;
+    float: left;
+    margin-top: 180px;
+}
+
+.availableStore h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: initial;
+}
+.availableStore p{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: lighter;
+    padding-bottom: 40px;
+}
+.availableStore img{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.appLink{
+    width: 100%;
+    float: left;
+    text-align: center;  
+}
+.appLink button{
+    background-color: #00fff0;
+    margin-top: -70px;
+    padding: 18px 35px;
+    font-size: 18px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+.appLink button:hover{
+    background-color: orangered ;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
+.nutShell{
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.nutShell div{
+    width: 20%;
+    float: left;
+}
+.nutShell div h3{
+    font-size: 30px;
+    font-weight: initial;
+    padding-bottom: 20px;
+}
+.nutShell div ul li{
+    list-style-type: none;
+    padding-top: 8px;
+}
+.nutShell div ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;   
+}
+.nutShell div ul li a:hover{
+    background-color: orangered;
+    color: white;
+    padding: 5px 5px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contact{
+    width: 100%;
+    float: left;
+}
+.contactDetails{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 50px 0px;
+}
+.contactDetails h1{
+    font-size: 40px;
+   font-weight: normal;
+   padding-bottom: 15px;
+}
+.clickMe{
+   width: 100%;
+   float: left;
+   text-align: center;
+   padding-bottom: 20px;
+}
+.clickMe input{
+     
+     border: 2px solid white;
+     background-color: #e8e8e8;
+     padding-top: 12px;
+     padding-bottom: 12px;
+     padding-left: 250px;
+     text-align: left;
+    
+}
+.clickMe button{
+    background-color: #00fff0;
+    padding: 10px 25px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+.clickMe button:hover{
+    background-color: orangered ;
+    color: white;
+    outline: none;
+    transition: 0.5s;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    
+}
+.footArea{
+    width: 100%;
+    float: left;
+    padding: 20px 0px 10px 0px ;
+}
+.copyright{
+    width: 50%;
+    float: left;
+    color: #00fff0;
+    font-size: 22px;
+    word-spacing: 8px;
+
+}
+.socialicon{
+    width: 50%;
+    float: left;
+    
+}
+.socialicon ul li{
+    display: inline;
+}
+.socialicon ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.socialicon ul li a:hover{
+    
+    color: #FF4500;
+    outline: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
